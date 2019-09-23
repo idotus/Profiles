@@ -400,7 +400,7 @@ USER-AGENT,Roam*,PROXY
 # (The Most Popular Sites)
 # > Apple
 # >> TestFlight
-DOMAIN,testflight.apple.com,PROXY
+# DOMAIN,testflight.apple.com,PROXY
 # >> Apple URL Shortener
 DOMAIN-SUFFIX,appsto.re,PROXY
 # >> iBooks Store download
@@ -541,8 +541,7 @@ DOMAIN-SUFFIX,yimg.com,PROXY
 DOMAIN,api.steampowered.com,PROXY
 DOMAIN,store.steampowered.com,PROXY
 
-# (ForeignMedia)
-# (Video)
+# (ForeignMedia) (Video)
 # > All4
 USER-AGENT,All4*,ForeignMedia
 DOMAIN-SUFFIX,c4assets.com,ForeignMedia
@@ -618,7 +617,7 @@ DOMAIN,kktv-theater.kk.stream,ForeignMedia
 USER-AGENT,LINE%20TV*,ForeignMedia
 DOMAIN-SUFFIX,linetv.tw,ForeignMedia
 DOMAIN,d3c7rimkq79yfu.cloudfront.net,ForeignMedia
-# > Hulu(�թ`��`)
+# > Hulu(¥Õ©`¥ë©`)
 DOMAIN-SUFFIX,happyon.jp,ForeignMedia
 DOMAIN-SUFFIX,hulu.jp,ForeignMedia
 # > LiTV
@@ -673,7 +672,7 @@ DOMAIN-SUFFIX,googlevideo.com,ForeignMedia
 DOMAIN-SUFFIX,youtube.com,ForeignMedia
 DOMAIN,youtubei.googleapis.com,ForeignMedia
 
-# (Music)
+# (ForeignMedia) (Music)
 # > Deezer
 USER-AGENT,Deezer*,ForeignMedia
 DOMAIN-SUFFIX,deezer.com,ForeignMedia
